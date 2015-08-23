@@ -1,0 +1,520 @@
+/**********************
+GENERAL
+***********************/
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Muli', sans-serif;
+  color: #384047;    
+  height: 100%;
+}
+
+#wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.module {	
+  /*max-width: 600px;*/
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #1f997d;
+}
+
+
+/*#results {
+	text-align: center;
+}*/
+
+/* TYPOGRAPHY */
+
+h1, h2, h3 {
+  text-align: center;
+  padding: 20px 0 10px 0;
+}
+
+h1 {
+  font-size: 80px; 
+  font-family:'Ultra', serif;
+}
+
+h2 {
+  font-family:'Muli', sans-serif;
+  font-size: 40px;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+p, label, input {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+p {
+  padding-bottom: 14px;
+}
+
+
+
+/***************************
+WELCOME SECTION
+***************************/
+
+.headline { 
+  height: 320px;
+  margin: 0 auto;
+  padding-top: 120px;
+}
+
+.headline h1 {
+  color: #177a56;
+}
+
+.headline h2 {
+  padding-top: 20px;
+}
+
+#dontknow {
+  font-size: 240px;
+  color: #177a56;
+}
+
+
+/**********************
+FORM STYLES
+***********************/
+
+
+form {
+  /*max-width: 600px;*/
+  width: 100%;
+  height: 100%;
+  background: #f4f7f8;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  font-family: "Muli", sans-serif;
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 10px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #520c31;
+  box-shadow: 0 2px 0 rgba(0,0,0,0.03) inset;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+input:after {
+  margin-bottom: 20px;
+}
+/*
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 30px 6px;
+}
+
+input[type="radio"]:first-of-type {
+  margin-left: 0px;
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+*/
+input[type="button"] {
+  padding: 19px 39px 18px 39px;
+  color:#fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-align: center;
+  border: 1px solid #3ac162;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+  display: block;
+  margin: 0 auto;
+  border: 0;
+  margin-top: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color:#fff;
+  background-color: #4bc970; /* default background color */
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-align: center;
+  border: 1px solid #3ac162;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+  display: block;
+  margin: 0 auto;
+  border: 0;
+  margin-top: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+button:hover, input[type="button"]:hover {
+  background-color: #fff;
+  color: #3ac162;
+}
+button:active, input[type="button"]:active {
+  background-color: #2f0002;
+  color: #fff;
+}
+/*
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}*/
+
+label {
+  display: block;
+}
+
+h1.number {
+  font-size: 200px;
+}
+
+.number {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-bottom: 3px solid;
+  margin-bottom: 30px;
+}
+
+.validationMessage {
+  color: #fff;
+  background-color: #ba3817;
+  padding: 5px;
+  border: 2px solid #f0ddb9;
+  margin-top: -10px;
+  margin-bottom: 25px;
+  display: block;
+}
+
+.validationMessage:after {
+}
+
+@media screen and (min-width: 480px) {
+
+	.module {	
+ 	 	/*max-width: 940px;*/
+    width:100%;
+    height: 100%;
+    background-color: #1f997d;
+	}
+
+ 	form {
+    	/*max-width: 940px;*/
+      width: 100%;
+      height: 100%;
+  	}
+
+}
+
+/*form styles*/
+#msform {
+  margin: 0 auto;
+  position: relative;
+}
+#msform .fieldsetDiv {
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+  #msform fieldset {
+    border: 0 none;
+    border-radius: 3px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    padding: 20px 30px;
+    
+    box-sizing: border-box;
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+
+    /*stacking fieldsets above each other*/
+    position: absolute;
+  }
+  /*Hide all except first fieldset*/
+  #msform .fieldsetDiv:not(:first-of-type) {
+    display: none;
+  }
+
+  #msform .beside {
+    width: 50%;
+    height: 100%;
+    background-color: red;
+    float: right;
+  }
+
+
+.quizcontent {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.quizcontent label {
+  letter-spacing: 2px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.quizcontent input {
+  margin-top: 10px;
+  border: 3px solid;
+}
+
+
+/***************************
+QUESTION 1
+***************************/
+
+#page1 {
+  background-color: #fff5e0;
+  width: 50%;
+}
+
+#pattern1 {
+  width: 50%; /* But we do need to set this one! */
+  background-image: url("../img/pattern01.jpg");
+  background-size: contain;
+}
+
+#one {
+  color: #852023;
+  border-color: #177a56;
+}
+
+.quizcontent label.q12 {
+  color: #852023;
+}
+
+.quizcontent input.q12 {
+  border-color: #f0ddb9;
+}
+
+.burgundy {
+  background-color: #851f23;
+}
+
+/***************************
+QUESTION 2
+***************************/
+
+#page2 {
+  background-color: #27b8a4;
+  width: 50%;
+}
+
+#pattern2 {
+  width: 50%; /* But we do need to set this one! */
+  background-image: url("../img/pattern02.jpg");
+  background-size: contain;
+}
+
+#two {
+  color: #f6e8cf;
+  border-color: #ba3817;
+}
+
+.quizcontent label.q34 {
+  color: #e8e5cc;
+}
+
+.quizcontent input.q34  {
+  border-color: #ebd4a4;
+}
+
+.fire {
+  background-color: #ba3817;
+}
+
+/***************************
+QUESTION 3
+***************************/
+
+
+#page3 {
+  background-color: #cf4821;
+  width: 50%;
+}
+
+#pattern3 {
+  width: 50%; /* But we do need to set this one! */
+  background-image: url("../img/pattern03.jpg");
+  background-size: contain;
+}
+
+#three {
+  color: #520c31;
+  border-color: #27b8a4;
+}
+
+.quizcontent label.q56 {
+  color: #e9ca9a;
+}
+
+.quizcontent input.q56  {
+  border-color: #6a1140;
+}
+
+.mermaid {
+  background-color: #27b8a4;
+}
+
+/***************************
+QUESTION 4
+***************************/
+
+
+#page4 {
+  background-color: #f0deb9;
+  width: 50%;
+}
+
+#pattern4 {
+  width: 50%; /* But we do need to set this one! */
+  background-image: url("../img/pattern04.jpg");
+  background-size: contain;
+}
+
+#four {
+  color: #1f997d;
+  border-color: #ba3817;
+}
+
+.quizcontent label.q78 {
+  color: #852023;
+}
+
+.quizcontent input.q78 {
+  border-color: #1f997d;
+}
+
+.pumpkin {
+  background-color: #ba3817;
+}
+
+/***************************
+QUESTION 5
+***************************/
+
+
+#page5 {
+  background-color: #177a56;
+  width: 50%;
+}
+
+#pattern5 {
+  width: 50%; /* But we do need to set this one! */
+  background-image: url("../img/pattern05.jpg");
+  background-size: contain;
+}
+
+#five {
+  color: #ebd3a3;
+  border-color: #cf4821;
+}
+
+.quizcontent label.q90 {
+  color: #ebd3a3;
+}
+
+.quizcontent input.q90 {
+  border-color: #841f22;
+}
+
+.carrot {
+  background-color: #cf4821;
+}
+
+/***************************
+RESULTS PAGE
+***************************/
+
+.resultpage {
+  background-color: #1f997d;
+  width: 100%;
+  color: #ffffff;
+}
+
+.resultpage h2 {
+  padding: 80px 0 40px 0;
+  line-height: 1.35;
+}
+
+.resultpage p {
+  text-align: center;
+  font-size: 18px;
+}
+
+.familiar {
+  color: #ffffff;
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.passwordlist {
+  width: 300px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.footer {
+  background-color: #ba3817;
+  color: #cf4821;
+  width: 100%;
+  height: 60px;
+  color: #ffffff;
+}
+
+.footer img {
+  height: 40px;
+  width: auto;
+  float: right;
+  padding-top: 15px;
+  padding-right: 20px;
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+} 
+
+
+
+
+

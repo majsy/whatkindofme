@@ -1,0 +1,364 @@
+/***************************
+GENERAL
+***************************/
+html, body, input {
+	font-family:'Muli', sans-serif;
+}
+
+#wrapper {
+	max-width: 940px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+/* BUTTONS */
+
+button {
+	width: 190px;
+	height: 60px;
+	font-size: 16px;
+	letter-spacing: 5px;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	border: 0;
+	text-transform: uppercase;
+	margin-top: 20px;
+	color: #ffffff;
+}
+
+
+/* TYPOGRAPHY */
+
+h1 {
+	font-size: 100px;	
+	font-family:'Ultra', serif;
+}
+
+h2 {
+	font-family:'Muli', sans-serif;
+}
+
+p {}
+
+
+/* TEMPLATE SECTIONS */
+
+.questionpage {
+	width: 100%;
+	height: 580px;
+	margin: 0 auto;
+	display: block;
+}
+
+.survey {
+	max-width: 470px;
+	height: 100%;
+	float: left;
+
+}
+
+.number {
+	width: 260px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 30px;
+	border-bottom: 3px solid;
+	margin-bottom: 30px;
+}
+
+h1.number {
+	font-size: 200px;
+}
+
+.pattern {
+	max-width: 470px;
+	height: 100%;
+	float: right;
+	overflow: hidden;
+}
+
+.quizcontent {
+	width: 260px;
+	margin: 0 auto;
+}
+
+.quizcontent label {
+	width: 260px;
+	font-size: 14px;
+	letter-spacing: 2px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.quizcontent label input {
+	width: 260px;
+	height: 35px;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	border: 3px solid;
+}
+
+/***************************
+FRONT PAGE
+***************************/
+
+#frontpage {
+	width: 100%; /* after we've set the width to 940px, it's a good idea to use percentages */
+	height: 580px;
+	background-color: #1f997d;
+	margin: 0 auto;
+}
+
+
+#whatkindof {
+/*	width: 600px;  We don't need to set this width to anything */
+	height: 320px;
+	margin: 0 auto;
+	padding-top: 80px;
+
+}
+
+#wko {
+ 	font-size: 80px;
+ 	color: #177a56;
+ 	text-align: center;
+ 	padding-bottom: 7px;
+}
+
+#soulmate {
+ 	font-size: 40px;
+ 	color: #ffffff;
+ 	text-align: center;
+ 	text-transform: uppercase;
+ 	letter-spacing: 7px;
+ 	padding-top: 7px;
+}
+
+#dontknow {
+ 	font-size: 160px;
+ 	color: #177a56;
+ 	text-align: center;
+ 	padding-top: 10px;
+ 	padding-bottom: 20px;
+}
+
+.startbutton {
+	background-color: #851f23;
+}
+
+/***************************
+QUESTION 1
+***************************/
+
+#page1 {
+	background-color: #fff5e0;
+	width: 50%;
+}
+
+#pattern1 {
+	width: 50%; /* But we do need to set this one! */
+	background-image: url("../img/pattern01.jpg");
+	background-size: contain;
+}
+
+#one {
+	color: #852023;
+	border-color: #177a56;
+}
+
+.quizcontent .q12 {
+	color: #852023;
+}
+
+.quizcontent .q12 input  {
+	border-color: #f0ddb9;
+}
+
+.burgundy {
+	background-color: #851f23;
+
+}
+
+/***************************
+QUESTION 2
+***************************/
+
+#page2 {
+	background-color: #27b8a4;
+	width: 50%;
+}
+
+#pattern2 {
+	width: 50%; /* But we do need to set this one! */
+	background-image: url("../img/pattern02.jpg");
+	background-size: contain;
+}
+
+#two {
+	color: #f6e8cf;
+	border-color: #ba3817;
+}
+
+.quizcontent .q34 {
+	color: #e8e5cc;
+}
+
+.quizcontent .q34 input  {
+	border-color: #ebd4a4;
+}
+
+.fire {
+	background-color: #ba3817;
+}
+
+/***************************
+QUESTION 3
+***************************/
+
+
+#page3 {
+	background-color: #cf4821;
+	width: 50%;
+}
+
+#pattern3 {
+	width: 50%; /* But we do need to set this one! */
+	background-image: url("../img/pattern03.jpg");
+	background-size: contain;
+}
+
+#three {
+	color: #520c31;
+	border-color: #27b8a4;
+}
+
+.quizcontent .q56 {
+	color: #e9ca9a;
+}
+
+.quizcontent .q56 input  {
+	border-color: #6a1140;
+}
+
+.mermaid {
+	background-color: #27b8a4;
+}
+
+/***************************
+QUESTION 4
+***************************/
+
+
+#page4 {
+	background-color: #f0deb9;
+	width: 50%;
+}
+
+#pattern4 {
+	width: 50%; /* But we do need to set this one! */
+	background-image: url("../img/pattern04.jpg");
+	background-size: contain;
+}
+
+#four {
+	color: #1f997d;
+	border-color: #ba3817;
+}
+
+.quizcontent .q78 {
+	color: #852023;
+}
+
+.quizcontent .q78 input  {
+	border-color: #1f997d;
+}
+
+.pumpkin {
+	background-color: #ba3817;
+}
+
+/***************************
+QUESTION 5
+***************************/
+
+
+#page5 {
+	background-color: #177a56;
+	width: 50%;
+}
+
+#pattern5 {
+	width: 50%; /* But we do need to set this one! */
+	background-image: url("../img/pattern05.jpg");
+	background-size: contain;
+}
+
+#five {
+	color: #ebd3a3;
+	border-color: #cf4821;
+}
+
+.quizcontent .q90 {
+	color: #ebd3a3;
+}
+
+.quizcontent .q90 input  {
+	border-color: #841f22;
+}
+
+.carrot {
+	background-color: #cf4821;
+}
+
+/***************************
+RESULT PAGE
+***************************/
+
+.resultpage {
+	background-color: #1f997d;
+	width: 100%;
+	height: 580px;
+	color: #ffffff;
+}
+
+.familiar {
+	color: #ffffff;
+	font-size: 25px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	text-align: center;
+	padding-top: 80px;
+}
+
+.passwordlist {
+	width: 300px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.footer {
+	background-color: #ba3817;
+	color: #cf4821;
+	width: 100%;
+	height: 60px;
+	color: #ffffff;
+}
+
+.footer img {
+	height: 40px;
+	width: auto;
+	float: right;
+	padding-top: 15px;
+	padding-right: 20px;
+	opacity: 0.2;
+	filter: alpha(opacity=20);
+}	
+
+
+
+
+
+
+
+

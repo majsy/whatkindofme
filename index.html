@@ -1,0 +1,155 @@
+ <!DOCTYPE HTML>
+<html lang="en">
+<head>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<title>What kind of? Beautiful Quizzes</title>
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+		<!-- Style Reset --> 
+		<link rel="stylesheet" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
+
+	<meta property="og:site_name" content="What Kind of"/>
+	<meta property="og:title" content="What Kind Of...?"/>
+	<meta property="og:description" content="Who is your soulmate? I just found out my perfect soulmate with this beautiful quiz.">
+	<meta property="og:image" content="http://whatkindof.me/img/pattern01.jpg"> 
+	<meta property="og:url" content="http//whatkindof.me/">
+	<meta property="og:type" content="url">
+       
+</head>
+<body>
+
+
+	<div class="module" id="startPage">
+		<div class="headline">
+			<h1>what kind of</h1>
+			<h2>soulmate will you have</h2>
+			<h1 id="dontknow">&#63;</h1>
+			<button id="startQuiz" class="burgundy" >Find Out</button>
+		</div>
+	</div>
+
+<div class="module" id="survey">
+
+<!-- multistep form -->
+ <form id="msform" name="signup-form">
+	<!-- fieldsets -->
+
+<!-- QUESTION 1  -->
+	<div class="fieldsetDiv" id ="page1">
+		<fieldset>
+			<div class="quizcontent">
+				<h1 class="number" id="one">1</h1>
+				<label for="firstName" class="q12">What's your first name?</label>
+				<input id="firstName"  class="q12" data-bind="value: firstName" name="firstName" type="text" title="Please enter your firstName" placeholder="First" min="3" autofocus required />
+				
+				<label for="surname"class="q12" >What's your last name?</label>
+				<input id="surname" class="q12" data-bind="value: lastName" name="lastName" type="text" title="Please enter your surname" placeholder="Last" required />
+			</div>		
+		<input type="button" name="next" class="next burgundy" value="Next" />
+
+		</fieldset>
+		<div class="beside pattern" id="pattern1"></div>
+	</div>
+	
+<!-- QUESTION 2 -->
+	<div class="fieldsetDiv" id ="page2">
+	<fieldset>
+		<div class="quizcontent">
+			<h1 class="number" id="two">2</h1>
+			<label for="birthDate" class="q34">When were you born?</label>
+			<input id="birthDate" class="q34" name="birthDate" data-bind="value: birthDate" type="date" title="Share your birthDate" required />
+			
+			<label for="birthPlace" class="q34">And in what city?</label>
+			<input id="birthPlace"  class="q34" data-bind="value: birthPlace" name="birthPlace" type="text" title="Please enter your birth city" required />
+		  </div>  
+		<input type="button" name="previous" class="previous fire" value="Previous" />
+		<input type="button" name="next" class="next fire" value="Next" />
+	</fieldset>
+		<div class="beside pattern" id="pattern2"></div>
+	</div>
+
+
+<!-- QUESTION 3 -->
+	<div class="fieldsetDiv" id="page3">
+	<fieldset>
+		<div class="quizcontent">
+		<h1 class="number" id="three">3</h1>
+			<label for="favNumber" class="q56">Your favorite number?</label>
+		    <input id="favNumber" class="q56" data-bind="value: favNumber" name="favNumber" type="text" title="Please enter your favorite number" />
+			        
+			<label for="petName" class="q56">Who was your favorite pet?</label>
+		    <input id="petName" class="q56" data-bind="value: petName" name="petName" type="text" title="Please enter your favorite pet's name" required />    
+		  </div>  
+		<input type="button" name="previous" class="previous mermaid" value="Previous" />
+		<input type="button" name="next" class="next mermaid" value="Next" />
+	</fieldset>
+		<div class="beside pattern" id="pattern3"></div>
+	</div>
+
+<!-- QUESTION 4 -->
+	<div class="fieldsetDiv" id="page4">
+	<fieldset>
+		<div class="quizcontent">
+			<h1 class="number" id="four">4</h1>
+			<label for="sportsTeam" class="q78">Your favorite sports team&#133;</label>
+		    <input id="sportsTeam" class="q78" data-bind="value: sportsTeam" name="sportsTeam" type="text" title="Please enter your sportsTeam" required />
+			   	        
+		    <label for="holiday" class="q78">And favorite holiday?</label>
+			<input id="holiday" class="q78" data-bind="value: holiday" name="holiday" type="text" title="Please enter your favorite holiday" required />
+		   	  </div>  
+		<input type="button" name="previous" class="previous pumpkin" value="Previous" />
+		<input type="button" name="submit" class="submit pumpkin" id="submit" value="Submit" />
+		
+	</fieldset>
+		<div class="beside pattern" id="pattern4"></div>
+	</div>
+ </form>
+</div>
+
+<!-- RESULTS SECTION -->
+		<div class="module resultpage" id="results">
+			<h2>So <span data-bind="text: fullName"></span>&#133;<br />
+			any of these look familiar?</h2>
+				<div class="passwordlist">
+				    <p data-bind="text: passCombo_1"></p>
+				    <p data-bind="text: passCombo_2"></p>
+				    <p data-bind="text: passCombo_3"></p>
+				    <p data-bind="text: passCombo_4"></p>
+				    <p data-bind="text: passCombo_5"></p>
+				    <p data-bind="text: passCombo_6"></p>
+				    <p data-bind="text: passCombo_7"></p>
+				    <p data-bind="text: passCombo_8"></p>
+				</div>
+		</div>
+
+<!-- FOOTER SECTION -->	
+	<div class="footer" id="footer">
+		<img src="img/loopia.png" alt="Loopia">
+	</div>
+
+    </body>
+		
+
+		<link href='http://fonts.googleapis.com/css?family=Muli|Ultra|Open+Sans' rel='stylesheet' type='text/css'>
+        <link type="text/css" href="css/form.css" rel="stylesheet" />
+
+       <!-- jQuery + jQuery template support -->
+        <script type="text/javascript" src="js/jquery-latest.min.js"></script>
+        <script type="text/javascript" src="js/jquery.tmpl.js"></script>
+		<!-- jQuery easing plugin -->
+		<script src="http://thecodeplayer.com/uploads/js/jquery.easing.min.js" type="text/javascript"></script>
+       <!-- Knockout JS support -->
+        <script type="text/javascript" src="js/knockout-3.2.0.js"></script> 
+        <script type="text/javascript" src="js/knockout.validation.js"></script> 
+
+		<!-- Custom Files -->        
+        <script type="text/javascript" src="js/script2.js"></script> 
+        
+
+
+</html>
+
+
+

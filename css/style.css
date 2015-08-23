@@ -1,0 +1,209 @@
+/*************************
+GENERAL
+**************************/
+
+body {
+font-family: 'Source Code Pro', sans-serif; 
+}
+
+#wrapper {
+padding-left: 10px;
+padding-top: 5px;
+margin-bottom: 40px;
+}
+
+/*#content {
+	height: 600px;
+	background-color: #640044;
+}*/
+
+#reminder {
+	width: 500px;
+	height: 330px;
+	margin: 0 auto; 
+	position: absolute;
+	top: 260px;
+}
+
+.box {
+/*	width: 350px;	*/
+	padding: 0 40px;
+/*	vertical-align: bottom;*/	
+	position: relative;
+	margin: 0 auto;
+	margin-top: 16px;
+}
+
+button {
+	/*padding: 15px;
+	margin: 0 5px;
+	color: #fff;
+	border: 0px solid white;
+	cursor: pointer;
+	font-family: inherit;
+	font-size: inherit;*/
+
+	display: inline-block !important;
+}
+
+a {
+	font-family: inherit;
+	font-size: inherit;
+	color: #1f997d;
+	text-decoration: underline;
+	text-align: center;
+	cursor: pointer;
+
+}
+
+.buttons {
+	width: 100%;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.unpadded-button {
+	/*padding: 0px 0px 0px 0px !important;*/
+	/*display: inline-block;*/
+	display: inline-block;
+	float: right;
+
+}
+#share {
+	margin: 0 auto;
+	width: 180px !important;
+}
+.sharer-0 {
+	height: 21px;
+}
+
+#share label {
+	background-color: #000000 !important;
+	width: 180px !important;
+}
+
+#share label.entypo-export {
+	padding: 0;
+}
+
+#share label.entypo-export:before {
+	visibility: hidden;
+	content: "";
+	width: 0;
+	
+}
+
+#share label span {
+	font-family: 'Source Code Pro', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	-webkit-font-smoothing: inherit;
+	letter-spacing: 0;
+	text-transform: capitalize;
+	color: #1f997d;
+	padding-left: 0 !important;
+	text-decoration: underline;
+	
+}
+
+.hi {
+	width: 500px;
+	height: 30px;
+	margin: 0 auto;
+}
+
+.hi img {
+	max-width: 400px;
+	height: auto;
+	margin: 0 auto;
+	padding: 20px 50px;
+	text-align: center;
+	vertical-align: center;
+}
+
+/*************************
+TYPOGRAPHY
+**************************/
+body {
+	line-height: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 16px;
+}
+
+ul {
+	padding-bottom: 40px;
+}
+
+ul li {
+	list-style-type: none;
+	margin-left: 10px;
+}
+
+.files li:before {
+	content:"-"; position:relative; left:-5px;
+}
+
+.websites li:before {
+	content:"*"; position:relative; left:-5px;
+}
+
+.websites li, .files li {
+	text-indent: -5px;
+}
+
+#complete {
+	/*margin-bottom: 150px;*/
+	margin-top: 40px;
+}
+
+.relax {
+	color: #000000;
+	font-size: 14px;
+	padding: 15px;
+}
+
+#showbutton.button-text {
+	font-size: 10px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+#showPasswords {
+	color: #000000;
+	font-size: 14px;
+	padding: 10px;
+}
+
+
+
+/*************************
+COLORS
+**************************/
+
+body {
+	color: #ffffff;
+	background-color: #000;
+}
+
+.strong {
+	color: #4bec13;
+}
+
+/*button {
+	background-color: #1f997d;
+}*/
+
+.button-text {
+	color: #1f997d;
+}
+
+#share label span {
+	background-color: #fff !important;
+}
+
+#reminder {
+	background-color: #ffffff;
+	border: 8px solid #cf4821;
+}
